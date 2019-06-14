@@ -1,0 +1,13 @@
+{
+  "name": "n-spider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js >> log.log &"
+  }
+}
